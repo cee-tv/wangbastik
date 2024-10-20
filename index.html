@@ -15,12 +15,35 @@
             background-attachment: fixed;
         }
         .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 2px;
+            box-shadow: 0px 0px 1rem rgba(255, 255, 255, 0.6);
+            border-radius: 8px;
         }
-        .card {
+       @keyframes glowing {
+            0% { color: #333; text-shadow: none; }
+            50% { color: #fff; text-shadow: 0 0 8px #fff; }
+            100% { color: #333; text-shadow: none; }
+
+        } 
+   
+    h1 {
+            color: #666;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            animation: glowing 2s infinite;
+      font-size: 40px;
+        }
+       h2 {
+            color: #fff;
+            font-size: 80%;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+         margin-bottom: 20px;
+        }
+       .card {
             display: flex;
             flex-direction: column;
             justify-content: space-around;
@@ -35,8 +58,7 @@
             text-align: center;
             transition: all 0.3s ease;
             color: #333;
-        }
-        
+        }               
         .card img {
             width: 50%;
             height: auto;
@@ -97,10 +119,20 @@
             text-align: center;
             color: #fff;
         }
-		.philpogi {
+		.philpogi1 {
             background-color: #000000;
             backdrop-filter: blur(10px);
-            padding: 10px;
+            padding: 4px;
+            margin: 10px;
+            border: 2px;
+            border-radius: 10px;
+            text-align: center;
+            color: #fff;
+        }
+    		.philpogi2 {
+            background-color: #000000;
+            backdrop-filter: blur(10px);
+            padding: 4px;
             margin: 10px;
             border: 2px;
             border-radius: 10px;
@@ -111,7 +143,7 @@
             font-size: 2em;
             font-weight: 800;
         }
-            .philpogi h1 {
+            .philpogi1 h1 {
             font-size: 1em;
             font-weight: 800;
         }
@@ -173,10 +205,39 @@
             font-size: 1.2em;
             color: #fff;
         }
+	    .controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  #currentChannel {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
     </style>
 
+<div class="container">
+    <h1>NOT FOR SALE</h1>
+  <h2>We only re-share free Iptv links (such as public IPTV channels, live stream url, m3u8, ts, flv, rtsp, rtmp, txt ect.) which are already at public accessible websites. We DO NOT host or stream any videos on this website, We urge all copyright owners, to recognize that links contained within this site are located somewhere else on the web. Please direct all copyright infringement issues to the companies that host these files.</h2>
 
 <head>
+	
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BASTIKWANG TV</title>
@@ -191,22 +252,28 @@
 </head>
 <body class="bg-black text-white min-h-screen flex flex-col">
    
+      <div id="channelSelect"></div>
+    <div class="controls">
+      <button onclick="changeChannel('previous')">Previous Channel</button>
+      <button onclick="changeChannel('next')">Next Channel</button>
+    </div>
+  </div>
 
 
 
     <main class="flex-grow p-4">
      
-        <div class="philpogi">
+        <div class="philpogi1">
             <select id="channelSelect" class="w-full p-2 bg-gray-700 text-white rounded">
                 <option value="">TAP HERE TO SELECT CHANNEL</option>
                 <!-- Channel options will be populated dynamically -->
             </select>
         </div>
-		   <div class="philpogi">
+		   <div class="philpogi2">
 		   
 		       <video id="player" controls autoplay style="width: 100%; max-width: 700px; height: auto;"></video>
            
-        
+        </div>
 
     <script>
         jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
@@ -229,11 +296,16 @@
         }
         function populateChannelSelect() {
             const select = document.getElementById('channelSelect');
+		const currentChannelElement = document.getElementById('channelSelect');
+
+    function playChannel(index) {
+      const channel = channels[index];
+      currentChannelElement.textContent = `Now Playing: ${channel.name}`;
             Object.keys(channels).forEach(key => {
                 const option = document.createElement('option');
                 option.value = key;
                 option.textContent = channels[key].name;
-                select.appendChild(option);
+                select.appendChild(option);		        
             });
         }
         window.onload = function() {
@@ -259,6 +331,18 @@
     </script>
     <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
+	    function changeChannel(direction) {
+      if (direction === 'next') {
+        currentChannelIndex = (currentChannelIndex + 1) % channels.length;
+      } else if (direction === 'previous') {
+        currentChannelIndex = (currentChannelIndex - 1 + channels.length) % channels.length;
+      }
+      playChannel(currentChannelIndex);
+    }
+
+    // Initial channel load
+    playChannel(currentChannelIndex);
+  
     </script>
 </body>
 
