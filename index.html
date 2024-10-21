@@ -115,16 +115,26 @@
             text-align: center;
             color: #fff;
         }
-		.philpogi1 {
-            background-color: #fff;
-            backdrop-filter: blur(10px);
-            padding: 4px;
-            margin: 10px;
+	  select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            padding: 10px 30px 10px 10px;
+            margin-bottom: 20px;
+            width: 100%;
+		color: #fff;
+            font-size: 16px;
+            font-weight: 600;
             border: 2px solid #007BFF;
-            border-radius: 10px;
-            text-align: center;
-            
+            border-radius: 13px;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%23007BFF" d="M7 10l5 5 5-5z"/></svg>') no-repeat;
+            background-position: right 10px center;
+            background-size: 20px;
+            background-color: #000;
+            cursor: pointer;
+            transition: all 0.3s ease;
         }
+		
     		.philpogi2 {
             background-color: #000000;
             backdrop-filter: blur(10px);
@@ -233,7 +243,7 @@
   <h2>We only re-share free Iptv links (such as public IPTV channels, live stream url, m3u8, ts, flv, rtsp, rtmp, txt ect.) which are already at public accessible websites. We DO NOT host or stream any videos on this website, We urge all copyright owners, to recognize that links contained within this site are located somewhere else on the web. Please direct all copyright infringement issues to the companies that host these files.</h2>
 	     
         <div class="philpogi1">
-            <select id="channelSelect" class="w-full p-2 bg-gray-700 text-white rounded">
+            <select id="channelSelect">
                 <option value="">TAP HERE TO SELECT CHANNEL</option>
                 <!-- Channel options will be populated dynamically -->
             </select>
