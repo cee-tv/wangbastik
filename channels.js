@@ -319,66 +319,54 @@ const channels = {
     },
 	CINEMAX: {
         name: 'CINEMAX',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd',
+        keyId: 'b207c44332844523a3a3b0469e5652d7',
+        key: 'fe71aea346db08f8c6fbf0592209f955',
 		type: 'mpd'
     },
 	WARNERTV: {
         name: 'WARNER TV',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_warnertvhd.mpd',
+        keyId: '4503cf86bca3494ab95a77ed913619a0',
+        key: 'afc9c8f627fb3fb255dee8e3b0fe1d71',
 		type: 'mpd'
     },
 	SONYMOVIES: {
         name: 'SONY MOVIES',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live1/smc_720p/chunks.m3u8',
+        type: 'hls'
     },
 	RAKUTENVIKI: {
         name: 'RAKUTEN VIKI',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://newidco-rakutenviki-2-eu.xiaomi.wurl.tv/playlist.m3u8',
+        type: 'hls'
     },
 	RAKUTENCOMEDY: {
         name: 'RAKUTEN COMEDY',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://rakuten-comedy-8-nl.samsung.wurl.tv/playlist.m3u8',
+        type: 'hls'
     },
 	RAKUTENCOMEDYEU: {
         name: 'RAKUTEN COMEDY EU',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://rakuten-comedymovies-1-eu.rakuten.wurl.tv/playlist.m3u8',
+        type: 'hls'
     },
 	RAKUTENFAMILY: {
         name: 'RAKUTEN FAMILY',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://rakuten-family-1-eu.rakuten.wurl.tv/2000.m3u8',
+        type: 'hls'
     },
 	KIX: {
         name: 'KIX',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/kix_hd1.mpd',
+        keyId: 'a8d5712967cd495ca80fdc425bc61d6b',
+        key: 'f248c29525ed4c40cc39baeee9634735',
 		type: 'mpd'
     },
 	KBSWORLD: {
         name: 'KBS WORLD',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8',
+        type: 'hls'
     },
 	KMOVIES: {
         name: 'K-MOVIES',
@@ -387,303 +375,297 @@ const channels = {
     },
 	SBSEU: {
         name: 'SBS EU',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://newidco-sbs-1-eu.xiaomi.wurl.tv/playlist.m3u8',
+        type: 'hls'
     },
 	TVNMOVIES: {
         name: 'TVN MOVIES',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tvnmovie.mpd',
+        keyId: '2e53f8d8a5e94bca8f9a1e16ce67df33',
+        key: '3471b2464b5c7b033a03bb8307d9fa35',
 		type: 'mpd'
     },
 	TVNPREM: {
         name: 'TVN PREMIUM',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_tvnpre.mpd',
+        keyId: 'e1bde543e8a140b38d3f84ace746553e',
+        key: 'b712c4ec307300043333a6899a402c10',
 		type: 'mpd'
     },
 	TAPMOVIES: {
         name: 'TAP MOVIES',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_popupppvhd.mpd',
+        keyId: '286e1c2d622c4c73b5c3d72e4a848abd',
+        key: 'b7fad67599c1ce3c2fbc9d02b901be05',
 		type: 'mpd'
     },
 	SPOTV1: {
         name: 'SPOTV1',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd',
+        keyId: 'ec7ee27d83764e4b845c48cca31c8eef',
+        key: '9c0e4191203fccb0fde34ee29999129e',
 		type: 'mpd'
     },
 	SPOTV2: {
         name: 'SPOTV2',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd',
+        keyId: '7eea72d6075245a99ee3255603d58853',
+        key: '6848ef60575579bf4d415db1032153ed',
 		type: 'mpd'
     },
 	PREMIERTENNIS: {
         name: 'PREMIER TENNIS',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_premiertennishd.mpd',
+        keyId: '59454adb530b4e0784eae62735f9d850',
+        key: '61100d0b8c4dd13e4eb8b4851ba192cc',
 		type: 'mpd'
     },
 	PREMIERSPORTS : {
         name: 'PREMIER SPORTS',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_premiersports_hd1.mpd',
+        keyId: 'fc19c98cb9504a0fb78b22fea0a4b814',
+        key: 'ea683112a96d4ae6c32d4ea13923e8c7',
 		type: 'mpd'
     },
 	TAPSPORTS: {
         name: 'TAP SPORTS',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd',
+        keyId: 'eabd2d95c89e42f2b0b0b40ce4179ea0',
+        key: '0e7e35a07e2c12822316c0dc4873903f',
 		type: 'mpd'
     },
 	ONESPORTS1: {
         name: 'ONE SPORTS+',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_onesportsplus_hd1.mpd',
+        keyId: '322d06e9326f4753a7ec0908030c13d8',
+        key: '1e3e0ca32d421fbfec86feced0efefda',
 		type: 'mpd'
     },
 	ONESPORTS2: {
         name: 'ONES PORTS',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_onesports_hd.mpd',
+        keyId: '53c3bf2eba574f639aa21f2d4409ff11',
+        key: '3de28411cf08a64ea935b9578f6d0edd',
 		type: 'mpd'
     },
 	PBA: {
         name: 'PBA RUSH',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_pbarush_hd1.mpd',
+        keyId: '76dc29dd87a244aeab9e8b7c5da1e5f3',
+        key: '95b2f2ffd4e14073620506213b62ac82',
 		type: 'mpd'
+	},
+	nba: {
+        name: 'NBA TV',
+        url: 'https://fl5.moveonjoy.com/NBA_TV/index.m3u8',
+	type: 'hls'	
     },
 	UAAP: {
         name: 'UAAP',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/cg_uaap_cplay_sd.mpd',
+        keyId: '95588338ee37423e99358a6d431324b9',
+        key: '6e0f50a12f36599a55073868f814e81e',
 		type: 'mpd'
     },
 	CGTN: {
         name: 'CGTN',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_cgtn.mpd',
+        keyId: '0f854ee4412b11edb8780242ac120002',
+        key: '9f2c82a74e727deadbda389e18798d55',
 		type: 'mpd'
     },
 	FRANCE24: {
         name: 'FRANCE24',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_france24.mpd',
+        keyId: '257f9fdeb39d41bdb226c2ae1fbdaeb6',
+        key: 'e80ead0f4f9d6038ab34f332713ceaa5',
 		type: 'mpd'
     },
 	
 	ABCAUS: {
         name: 'ABC AUS',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_abc_aus.mpd',
+        keyId: '389497f9f8584a57b234e27e430e04b7',
+        key: '3b85594c7f88604adf004e45c03511c0',
 		type: 'mpd'
     },
 	TV5MONDE: {
         name: 'TV5 MONDE',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tv5_monde.mpd',
+        keyId: 'fba5a720b4a541b286552899ba86e38b',
+        key: 'f63fa50423148bfcbaa58c91dfcffd0e',
 		type: 'mpd'
     },
 	CHANNELNEWSASIA: {
         name: 'CHANNEL NEWS ASIA',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_channelnewsasia.mpd',
+        keyId: 'b259df9987364dd3b778aa5d42cb9acd',
+        key: '753e3dba96ab467e468269e7e33fb813',
 		type: 'mpd'
     },
 	LOTUSMACAU: {
         name: 'LOTUS MACAU',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/lotusmacau_prd.mpd',
+        keyId: '60dc692e64ea443a8fb5ac186c865a9b',
+        key: '01bdbe22d59b2a4504b53adc2f606cc1',
 		type: 'mpd'
     },
 	ANIMALPLANET : {
         name: 'ANIMAL PLANET',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_animal_planet_sd.mpd',
+        keyId: '436b69f987924fcbbc06d40a69c2799a',
+        key: 'c63d5b0d7e52335b61aeba4f6537d54d',
 		type: 'mpd'
     },
 	BBCEARTH: {
         name: 'BBC EARTH',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_bbcearth_hd1.mpd',
+        keyId: '34ce95b60c424e169619816c5181aded',
+        key: '0e2a2117d705613542618f58bf26fc8e',
 		type: 'mpd'
     },
 	ROCKENTERTAINMENT: {
         name: 'ROCK ENTERTAINMENT',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_rockentertainment.mpd',
+        keyId: 'e4ee0cf8ca9746f99af402ca6eed8dc7',
+        key: 'be2a096403346bc1d0bb0f812822bb62',
 		type: 'mpd'
     },
 	DISCOVERY: {
         name: 'DISCOVERY',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_discovery.mpd',
+        keyId: 'd9ac48f5131641a789328257e778ad3a',
+        key: 'b6e67c37239901980c6e37e0607ceee6',
 		type: 'mpd'
     },
 	BBCWORLD: {
         name: 'BBC WORLD',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/bbcworld_news_sd.mpd',
+        keyId: '436b69f987924fcbbc06d40a69c2799a',
+        key: 'c63d5b0d7e52335b61aeba4f6537d54d',
 		type: 'mpd'
     },
 	TRAVELCH: {
         name: 'TRAVEL CHANNEL',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/travel_channel_sd.mpd',
+        keyId: 'f3047fc13d454dacb6db4207ee79d3d3',
+        key: 'bdbd38748f51fc26932e96c9a2020839',
 		type: 'mpd'
     },
 	ASIAFOODNETWORK: {
         name: 'ASIA FOOD NETWORK',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/asianfoodnetwork_sd.mpd',
+        keyId: '1619db30b9ed42019abb760a0a3b5e7f',
+        key: '5921e47fb290ae263291b851c0b4b6e4',
 		type: 'mpd'
     },
 	FOODNETWORK: {
         name: 'FOOD NETWORK',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_foodnetwork_hd1.mpd',
+        keyId: 'b7299ea0af8945479cd2f287ee7d530e',
+        key: 'b8ae7679cf18e7261303313b18ba7a14',
 		type: 'mpd'
     },
 	
 	TAPTV: {
         name: 'TAP TV',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_taptv_sd.mpd',
+        keyId: 'f6804251e90b4966889b7df94fdc621e',
+        key: '55c3c014f2bd12d6bd62349658f24566',
 		type: 'mpd'
     },
 	CRIMEINVESTIGATION: {
         name: 'CRIME INVESTIGATION',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_crime_invest.mpd',
+        keyId: '21e2843b561c4248b8ea487986a16d33',
+        key: 'db6bb638ccdfc1ad1a3e98d728486801',
 		type: 'mpd'
     },
 	TECHSTORM: {
         name: 'TECH STORM',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tech_storm.mpd',
+        keyId: '5675d85ce6754ba6aa8f6acc4660f76f',
+        key: '140bfb365cf143c349f68699238a610c',
 		type: 'mpd'
     },
 	FASHIONTV: {
         name: 'FASHION TV',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_fashiontvhd.mpd',
+        keyId: '971ebbe2d887476398e97c37e0c5c591',
+        key: '472aa631b1e671070a4bf198f43da0c7',
 		type: 'mpd'
     },
 	BLOOMBERG : {
         name: 'BLOOMBERG',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/bloomberg_sd.mpd',
+        keyId: 'ef7d9dcfb99b406cb79fb9f675cba426',
+        key: 'b24094f6ca136af25600e44df5987af4',
 		type: 'mpd'
     },
 	NHKJAPAN: {
         name: 'NHK JAPAN',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_nhk_japan.mpd',
+        keyId: '0f853990412b11edb8780242ac120002',
+        key: '89d57dfef804fd9b5c788a54903d8256',
 		type: 'mpd'
     },
 	HISTORY: {
         name: 'HISTORY',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_historyhd.mpd',
+        keyId: 'a7724b7ca2604c33bb2e963a0319968a',
+        key: '6f97e3e2eb2bade626e0281ec01d3675',
 		type: 'mpd'
     },
 	ALJAZEERA: {
         name: 'ALJAZEERA',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_aljazeera.mpd',
+        keyId: '0f85362a412b11edb8780242ac120002',
+        key: 'd643dfbbfca6dc64e7f58fd67ea4b7d5',
 		type: 'mpd'
     },
 	CCTV: {
         name: 'CCTV',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cctv4.mpd',
+        keyId: '0f8541ec412b11edb8780242ac120002',
+        key: '6cf16c272b7357c48cd47061799a4963',
 		type: 'mpd'
     },
 	LIFETIME: {
         name: 'LIFETIME',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_lifetime.mpd',
+        keyId: 'cf861d26e7834166807c324d57df5119',
+        key: '64a81e30f6e5b7547e3516bbf8c647d0',
 		type: 'mpd'
     },
 	HGTV: {
         name: 'HGTV',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/hgtv_hd1.mpd',
+        keyId: 'f0e3ab943318471abc8b47027f384f5a',
+        key: '13802a79b19cc3485d2257165a7ef62a',
 		type: 'mpd'
     },
 	ARIRANG: {
         name: 'ARIRANG',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/arirang_sd.mpd',
+        keyId: '13815d0fa026441ea7662b0c9de00bcf',
+        key: '2d99a55743677c3879a068dd9c92f824',
 		type: 'mpd'
     },
 	
 	MTV: {
         name: 'MTV',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://fl2.moveonjoy.com/MTV_LIVE/index.m3u8',
+        type: 'hls'
     },
 	MYX: {
         name: 'MYX',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://myxnola-abscbn-ono.amagi.tv/index.m3u8',
+       	type: 'hls'
     },	
 	
 
 	
-  nba: {
-        name: 'NBA TV',
-        url: 'https://fl5.moveonjoy.com/NBA_TV/index.m3u8',
-		type: 'hls'
-    },	
-	
+  
 	
 
 
