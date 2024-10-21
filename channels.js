@@ -1,29 +1,711 @@
 
 const channels = {
-	  pba_rush_hd: {
-        name: 'PBA RUSH',
-        url: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_pbarush_hd1.mpd',
-        keyId: '76dc29dd87a244aeab9e8b7c5da1e5f3',
-        key: '95b2f2ffd4e14073620506213b62ac82',
-		type: 'mpd'
-    },
-	tv55: {
-        name: 'tv55',
+	TV5: {
+        name: 'TV 5',
         url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd',
         keyId: '2615129ef2c846a9bbd43a641c7303ef',
         key: '07c7f996b1734ea288641a68e1cfdc4d',
 		type: 'mpd'
     },
-    nba: {
+	A2Z: {
+        name: 'A2Z',
+        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_a2z.mpd',
+        keyId: 'f703e4c8ec9041eeb5028ab4248fa094',
+        key: 'c22f2162e176eee6273a5d0b68d19530',
+		type: 'mpd'
+    },
+	ONEPH: {
+        name: 'ONE PH',
+        url: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/oneph_sd.mpd',
+        keyId: '92834ab4a7e1499b90886c5d49220e46',
+        key: 'a7108d9a6cfcc1b7939eb111daf09ab3',
+		type: 'mpd'
+    },
+	ONENEWS: {
+        name: 'ONE NEWS',
+        url: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/onenews_hd1.mpd',
+        keyId: 'd39eb201ae494a0b98583df4d110e8dd',
+        key: '6797066880d344422abd3f5eda41f45f',
+		type: 'mpd'
+    },
+	IBC: {
+        name: 'iBC',
+        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/ibc13_sd.mpd',
+        keyId: '04e292bc99bd4ccba89e778651914254',
+        key: 'ff0a62bdf8920ce453fe680330b563a5',
+		type: 'mpd'
+    },
+	RPTV: {
+        name: 'RPTV',
+        url: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd',
+        keyId: '1917f4caf2364e6d9b1507326a85ead6',
+        key: 'a1340a251a5aa63a9b0ea5d9d7f67595',
+		type: 'mpd'
+    },
+	PTV: {
+        name: 'PTV',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	MPTV: {
+        name: 'MPTV',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	TVMARIA: {
+        name: 'TV MARIA',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	ANC: {
+	name: 'ANC',
+        url: 'https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-anc-global-dash-abscbnono/index.mpd',
+        keyId: '4bbdc78024a54662854b412d01fafa16',
+        key: '6039ec9b213aca913821677a28bd78ae',
+		type: 'mpd'
+    },
+	TRUEFM: {
+        name: 'TRUE FM',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	TELERADYO: {
+    name: 'TELERADYO',
+        url: 'https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-teleradyo-dash-abscbnono/index.mpd',
+        keyId: '47c093e0c9fd4f80839a0337da3dd876',
+        key: '50547394045b3d047dc7d92f57b5fb33',
+		type: 'mpd'	
+    },
+	RTBS: {
+        name: 'RTBS PRIME',
+        url: 'https://fl1002.bozztv.com/ssh101/primetvph/tracks-v1a1/mono.m3u8',
+		type: 'hls'
+    },
+	BILYONARYO: {
+        name: 'BILYONARYO',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	TVUP: {
+        name: 'TV UP',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	DEPED: {
+        name: 'DEPED CHANNEL',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	KNOWLEDGE: {
+        name: 'KNOWLEDGE CHANNEL',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	TFC: {
+        name: 'TFC',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	VIVACINEMA: {
+        name: 'VIVACINEMA',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	PBO: {
+        name: 'PBO',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	CINEMAONE: {
+        name: 'CINEMAONE',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	CINEMO: {
+        name: 'CINEMO',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	STAR: {
+        name: 'NHERS TELEVISION',
+        url: 'https://fl1002.bozztv.com/ssh101/jomarhost/tracks-v1a1/mono.m3u8?fbclid=IwY2xjawF5RsFleHRuA2FlbQIxMAABHU11GuNNGVT_cGTBI-ofYJ9BFpZesbR-6X9n4tLLOS4SXMK-PR0lEhyGYA_aem_SPQPlRkOGpFOorNXOfGuFQ',
+		type: 'hls'
+    },	
+	SARISARI: {
+        name: 'SARISARI',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	BUKO: {
+        name: 'BUKO',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	TMC: {
+        name: 'TMC',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	ROCKACTION: {
+        name: 'ROCKACTION',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	DREAMWORKSTAG: {
+        name: 'DREAMWORKS TAGALIZED',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	DREAMWORKSHD: {
+        name: 'DREAMWORKS HD',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	MOONBUG: {
+        name: 'MOONBUG',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	NICKELODEON: {
+        name: 'NICKELODEON',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	NICKJR: {
+        name: 'NICKJR',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	BEAN: {
+        name: 'MR. BEAN 24/7',
+        url: 'https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8',
+	type: 'hls'
+
+    },
+	CARTOONNETWORK: {
+        name: 'CARTOON NETWORK',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	CARTOONITO: {
+        name: 'CARTOONITO',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	DISNEYCH: {
+        name: 'DISNEY CHANNEL',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	DISNEYXD: {
+        name: 'DISNEY XD',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	PBS: {
+        name: 'PBS KIDS',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	ANIMAX: {
+        name: 'ANIMAX',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	HISTNOW: {
+        name: 'HIST NOW',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	HBOHD: {
+        name: 'HBO HD',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	HBOFAMILY: {
+        name: 'HBO FAMILY',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	HBOSIGNATURE: {
+        name: 'HBO SIGNATURE',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	HBOHITS: {
+        name: 'HBO HITS',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	HITSHD: {
+        name: 'HITS HD',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	THRILL: {
+        name: 'THRILL',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	TAPACTIONFLIX: {
+        name: 'TAP ACTIONFLIX',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	AXN: {
+        name: 'AXN',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	CINEMAX: {
+        name: 'CINEMAX',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	WARNERTV: {
+        name: 'WARNER TV',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	SONYMOVIES: {
+        name: 'SONY MOVIES',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	RAKUTENVIKI: {
+        name: 'RAKUTEN VIKI',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	RAKUTENCOMEDY: {
+        name: 'RAKUTEN COMEDY',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	RAKUTENCOMEDYEU: {
+        name: 'RAKUTEN COMEDY EU',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	RAKUTENFAMILY: {
+        name: 'RAKUTEN FAMILY',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	KIX: {
+        name: 'KIX',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	KBSWORLD: {
+        name: 'KBS WORLD',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	KMOVIES: {
+        name: 'K-MOVIES',
+        url: 'https://7732c5436342497882363a8cd14ceff4.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Plex_NewMovies/playlist.m3u8',
+        type: 'hls'
+    },
+	SBSEU: {
+        name: 'SBS EU',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	TVNMOVIES: {
+        name: 'TVN MOVIES',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	TVNPREM: {
+        name: 'TVN PREMIUM',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	TAPMOVIES: {
+        name: 'TAP MOVIES',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	SPOTV1: {
+        name: 'SPOTV1',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	SPOTV2: {
+        name: 'SPOTV2',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	PREMIERTENNIS: {
+        name: 'PREMIER TENNIS',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	PREMIERSPORTS : {
+        name: 'PREMIER SPORTS',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	TAPSPORTS: {
+        name: 'TAP SPORTS',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	ONESPORTS1: {
+        name: 'ONE SPORTS+',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	ONESPORTS2: {
+        name: 'ONES PORTS',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	PBA: {
+        name: 'PBA RUSH',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	UAAP: {
+        name: 'UAAP',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	CGTN: {
+        name: 'CGTN',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	FRANCE24: {
+        name: 'FRANCE24',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	
+	ABCAUS: {
+        name: 'ABC AUS',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	TV5MONDE: {
+        name: 'TV5 MONDE',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	CHANNELNEWSASIA: {
+        name: 'CHANNEL NEWS ASIA',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	LOTUSMACAU: {
+        name: 'LOTUS MACAU',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	ANIMALPLANET : {
+        name: 'ANIMAL PLANET',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	BBCEARTH: {
+        name: 'BBC EARTH',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	ROCKENTERTAINMENT: {
+        name: 'ROCK ENTERTAINMENT',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	DISCOVERY: {
+        name: 'DISCOVERY',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	BBCWORLD: {
+        name: 'BBC WORLD',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	TRAVELCH: {
+        name: 'TRAVEL CHANNEL',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	ASIAFOODNETWORK: {
+        name: 'ASIA FOOD NETWORK',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	FOODNETWORK: {
+        name: 'FOOD NETWORK',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	
+	TAPTV: {
+        name: 'TAP TV',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	CRIMEINVESTIGATION: {
+        name: 'CRIME INVESTIGATION',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	TECHSTORM: {
+        name: 'TECH STORM',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	FASHIONTV: {
+        name: 'FASHION TV',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	BLOOMBERG : {
+        name: 'BLOOMBERG',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	NHKJAPAN: {
+        name: 'NHK JAPAN',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	HISTORY: {
+        name: 'HISTORY',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	ALJAZEERA: {
+        name: 'ALJAZEERA',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	CCTV: {
+        name: 'CCTV',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	LIFETIME: {
+        name: 'LIFETIME',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	HGTV: {
+        name: 'HGTV',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	ARIRANG: {
+        name: 'ARIRANG',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	
+	MTV: {
+        name: 'MTV',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },
+	MYX: {
+        name: 'MYX',
+        url: 'url',
+        keyId: 'key',
+        key: 'key',
+		type: 'mpd'
+    },	
+	
+
+	
+  nba: {
         name: 'NBA TV',
         url: 'https://fl5.moveonjoy.com/NBA_TV/index.m3u8',
 		type: 'hls'
     },	
-	bean: {
-        name: 'MR. BEAN 24/7',
-        url: 'https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8',
-		type: 'hls'
-    },
+	
+	
+
+
+
+
+
+
+	
 	hallmark: {
         name: 'HALLMARK MOVIES AND MORE',
         url: 'https://www.apsattv.com/xumo.m3u',
@@ -549,15 +1231,6 @@ const channels = {
         url: 'https://fl1002.bozztv.com/ssh101/highlightstvph/tracks-v1a1/mono.m3u8',
 		type: 'hls'
     },
-	star: {
-        name: 'NHERS TELEVISION',
-        url: 'https://fl1002.bozztv.com/ssh101/jomarhost/tracks-v1a1/mono.m3u8?fbclid=IwY2xjawF5RsFleHRuA2FlbQIxMAABHU11GuNNGVT_cGTBI-ofYJ9BFpZesbR-6X9n4tLLOS4SXMK-PR0lEhyGYA_aem_SPQPlRkOGpFOorNXOfGuFQ',
-		type: 'hls'
-    },
-	rtbs: {
-        name: 'RTBS PRIME',
-        url: 'https://fl1002.bozztv.com/ssh101/primetvph/tracks-v1a1/mono.m3u8',
-		type: 'hls'
-    },
+	
 	
     };
