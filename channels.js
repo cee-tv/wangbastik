@@ -44,23 +44,23 @@ const channels = {
     },
 	PTV: {
         name: 'PTV',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_ptv4_sd.mpd',
+        keyId: '71a130a851b9484bb47141c8966fb4a3',
+        key: 'ad1f003b4f0b31b75ea4593844435600',
 		type: 'mpd'
     },
 	MPTV: {
         name: 'MPTV',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_mptv.mpd',
+        keyId: '6aab8f40536f4ea98e7c97b8f3aa7d4e',
+        key: '139aa5a55ade471faaddacc4f4de8807',
 		type: 'mpd'
     },
 	TVMARIA: {
         name: 'TV MARIA',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/tvmaria_prd.mpd',
+        keyId: 'fa3998b9a4de40659725ebc5151250d6',
+        key: '998f1294b122bbf1a96c1ddc0cbb229f',
 		type: 'mpd'
     },
 	ANC: {
@@ -72,9 +72,9 @@ const channels = {
     },
 	TRUEFM: {
         name: 'TRUE FM',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/truefm_tv.mpd',
+        keyId: '0559c95496d44fadb94105b9176c3579',
+        key: '40d8bb2a46ffd03540e0c6210ece57ce',
 		type: 'mpd'
     },
 	TELERADYO: {
@@ -91,66 +91,60 @@ const channels = {
     },
 	BILYONARYO: {
         name: 'BILYONARYO',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-05-prod.akamaized.net/out/u/bilyonaryoch.mpd',
+        keyId: '227ffaf09bec4a889e0e0988704d52a2',
+        key: 'b2d0dce5c486891997c1c92ddaca2cd2',
 		type: 'mpd'
     },
 	TVUP: {
         name: 'TV UP',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/tvup_prd.mpd',
+        keyId: '83e813ccd4ca4837afd611037af02f63',
+        key: 'a97c515dbcb5dcbc432bbd09d15afd41',
 		type: 'mpd'
     },
 	DEPED: {
         name: 'DEPED CHANNEL',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/depedch_sd.mpd',
+        keyId: '0f853706412b11edb8780242ac120002',
+        key: '2157d6529d80a760f60a8b5350dbc4df',
 		type: 'mpd'
     },
 	KNOWLEDGE: {
         name: 'KNOWLEDGE CHANNEL',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_knowledgechannel.mpd',
+        keyId: '0f856fa0412b11edb8780242ac120002',
+        key: '783374273ef97ad3bc992c1d63e091e7',
 		type: 'mpd'
     },
 	TFC: {
         name: 'TFC',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://tfcguam-abscbn-ono.amagi.tv/index.m3u8',
+ 	type: 'hls'
     },
 	VIVACINEMA: {
         name: 'VIVACINEMA',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd',
+        keyId: '07aa813bf2c147748046edd930f7736e',
+        key: '3bd6688b8b44e96201e753224adfc8fb',
 		type: 'mpd'
     },
 	PBO: {
         name: 'PBO',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/pbo_sd.mpd',
+        keyId: 'dcbdaaa6662d4188bdf97f9f0ca5e830',
+        key: '31e752b441bd2972f2b98a4b1bc1c7a1',
 		type: 'mpd'
     },
 	CINEMAONE: {
         name: 'CINEMAONE',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://cinemaone-abscbn-ono.amagi.tv/index_3.m3u8',
+        type: 'hls'
     },
 	CINEMO: {
         name: 'CINEMO',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://cinemo-abscbn-ono.amagi.tv/playlist.m3u8',
+        type: 'hls'
     },
 	STAR: {
         name: 'NHERS TELEVISION',
@@ -159,65 +153,65 @@ const channels = {
     },	
 	SARISARI: {
         name: 'SARISARI',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd',
+        keyId: '0a7ab3612f434335aa6e895016d8cd2d',
+        key: 'b21654621230ae21714a5cab52daeb9d',
 		type: 'mpd'
     },
 	BUKO: {
         name: 'BUKO',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_buko_sd.mpd',
+        keyId: 'd273c085f2ab4a248e7bfc375229007d',
+        key: '7932354c3a84f7fc1b80efa6bcea0615',
 		type: 'mpd'
     },
 	TMC: {
         name: 'TMC',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tagalogmovie.mpd',
+        keyId: '96701d297d1241e492d41c397631d857',
+        key: 'ca2931211c1a261f082a3a2c4fd9f91b',
 		type: 'mpd'
     },
 	ROCKACTION: {
         name: 'ROCKACTION',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_rockextreme.mpd',
+        keyId: '0f852fb8412b11edb8780242ac120002',
+        key: '4cbc004d8c444f9f996db42059ce8178',
 		type: 'mpd'
     },
 	DREAMWORKSTAG: {
         name: 'DREAMWORKS TAGALIZED',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd',
+        keyId: '564b3b1c781043c19242c66e348699c5',
+        key: 'd3ad27d7fe1f14fb1a2cd5688549fbab',
 		type: 'mpd'
     },
 	DREAMWORKSHD: {
         name: 'DREAMWORKS HD',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_dreamworks_hd1.mpd',
+        keyId: '4ab9645a2a0a47edbd65e8479c2b9669',
+        key: '8cb209f1828431ce9b50b593d1f44079',
 		type: 'mpd'
     },
 	MOONBUG: {
         name: 'MOONBUG',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_moonbug_kids_sd.mpd',
+        keyId: '0bf00921bec94a65a124fba1ef52b1cd',
+        key: '0f1488487cbe05e2badc3db53ae0f29f',
 		type: 'mpd'
     },
 	NICKELODEON: {
         name: 'NICKELODEON',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_nickelodeon.mpd',
+        keyId: '9ce58f37576b416381b6514a809bfd8b',
+        key: 'f0fbb758cdeeaddfa3eae538856b4d72',
 		type: 'mpd'
     },
 	NICKJR: {
         name: 'NICKJR',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_nickjr.mpd',
+        keyId: 'bab5c11178b646749fbae87962bf5113',
+        key: '0ac679aad3b9d619ac39ad634ec76bc8',
 		type: 'mpd'
     },
 	BEAN: {
@@ -228,107 +222,99 @@ const channels = {
     },
 	CARTOONNETWORK: {
         name: 'CARTOON NETWORK',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cartoonnetworkhd.mpd',
+        keyId: 'a2d1f552ff9541558b3296b5a932136b',
+        key: 'cdd48fa884dc0c3a3f85aeebca13d444',
 		type: 'mpd'
     },
 	CARTOONITO: {
         name: 'CARTOONITO',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://cdn1.skygo.mn/live/disk1/Boomerang/HLS-FTA/Boomerang.m3u8',
+        type: 'hls'
     },
 	DISNEYCH: {
         name: 'DISNEY CHANNEL',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://fl5.moveonjoy.com/DISNEY_CHANNEL/index.m3u8',
+        type: 'hls'
     },
 	DISNEYXD: {
         name: 'DISNEY XD',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://fl5.moveonjoy.com/DISNEY_XD/index.m3u8',
+        type: 'hls'
     },
 	PBS: {
         name: 'PBS KIDS',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
-		type: 'mpd'
+        url: 'https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/chunklist_b2000000.m3u8',
+        type: 'hls'
     },
 	ANIMAX: {
         name: 'ANIMAX',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_animax_sd.mpd',
+        keyId: '92032b0e41a543fb9830751273b8debd',
+        key: '03f8b65e2af785b10d6634735dbe6c11',
 		type: 'mpd'
     },
 	HISTNOW: {
         name: 'HIST NOW',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hitsnow.mpd',
+        keyId: '14439a1b7afc4527bb0ebc51cf11cbc1',
+        key: '92b0287c7042f271b266cc11ab7541f1',
 		type: 'mpd'
     },
 	HBOHD: {
         name: 'HBO HD',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd',
+        keyId: 'd47ebabf7a21430b83a8c4b82d9ef6b1',
+        key: '54c213b2b5f885f1e0290ee4131d425b',
 		type: 'mpd'
     },
 	HBOFAMILY: {
         name: 'HBO FAMILY',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbofam.mpd',
+        keyId: '872910c843294319800d85f9a0940607',
+        key: 'f79fd895b79c590708cf5e8b5c6263be',
 		type: 'mpd'
     },
 	HBOSIGNATURE: {
         name: 'HBO SIGNATURE',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_hbosign.mpd',
+        keyId: 'a06ca6c275744151895762e0346380f5',
+        key: '559da1b63eec77b5a942018f14d3f56f',
 		type: 'mpd'
     },
 	HBOHITS: {
         name: 'HBO HITS',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hbohits.mpd',
+        keyId: 'b04ae8017b5b4601a5a0c9060f6d5b7d',
+        key: 'a8795f3bdb8a4778b7e888ee484cc7a1',
 		type: 'mpd'
     },
 	HITSHD: {
         name: 'HITS HD',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd',
+        keyId: 'dac605bc197e442c93f4f08595a95100',
+        key: '975e27ffc1b7949721ee3ccb4b7fd3e5',
 		type: 'mpd'
     },
 	THRILL: {
         name: 'THRILL',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd',
+        keyId: '928114ffb2394d14b5585258f70ed183',
+        key: 'a82edc340bc73447bac16cdfed0a4c62',
 		type: 'mpd'
     },
 	TAPACTIONFLIX: {
         name: 'TAP ACTIONFLIX',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd',
+        keyId: 'bee1066160c0424696d9bf99ca0645e3',
+        key: 'f5b72bf3b89b9848de5616f37de040b7',
 		type: 'mpd'
     },
 	AXN: {
         name: 'AXN',
-        url: 'url',
-        keyId: 'key',
-        key: 'key',
+        url: 'https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_axn_sd.mpd',
+        keyId: 'fd5d928f5d974ca4983f6e9295dfe410',
+        key: '3aaa001ddc142fedbb9d5557be43792f',
 		type: 'mpd'
     },
 	CINEMAX: {
