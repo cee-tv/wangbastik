@@ -375,7 +375,7 @@ const channels = {
     },
 	Kplus: {
         name: 'K-PLUS',
-        url: 'https://varun-eosin.vercel.app/stream/iptv/hlsv1/kplus.m3u8',
+        url: 'http://iptvid.my.id/avc/zdYwXLGjtNWsnDgSfgYmSlBCvPMO13kK/ztfsQn5V6MQUNR9NYB9gKdzahqiXrxXM/kplus.m3u8',
         type: 'hls'
     },
 	ASIANCRUSH: {
